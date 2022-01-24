@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/background"
+    tools:context=".Main">
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.6">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"/>
+        <ImageView
+            android:id="@+id/myAvatar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"/>
+        <TextView
+            android:id="@+id/myNick"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textSize="15dp"
+            android:text="nickname"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"/>
+        <Button
+            android:id="@+id/btnInit"
+            android:text="초기화"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/nanaGame"
+                android:layout_margin="10dp"
+                android:text="나나를 이겨라"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"/>
+            <Button
+                android:id="@+id/ddubiGame"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:text="뚜비의 말랑말랑 수학교실"
+                android:layout_weight="1"
+                android:layout_height="0dp"/>
+            <Button
+                android:id="@+id/boradoriGame"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:text="보라돌이의 찾아라 짝"
+                android:layout_weight="1"
+                android:layout_height="0dp"/>
+            <Button
+                android:id="@+id/bboGame"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:text="뽀의 쿠키 사수 대작전"
+                android:layout_weight="1"
+                android:layout_height="0dp"/>
+            <Button
+                android:id="@+id/btnRank"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:text="게임 기록 보기"
+                android:layout_weight="1"
+                android:layout_height="0dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
