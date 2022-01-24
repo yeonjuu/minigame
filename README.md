@@ -1,2 +1,2 @@
 # minigame
-mini game &lt;letsgo> using AndroidStudio
+mini game &lt;letsgo>
